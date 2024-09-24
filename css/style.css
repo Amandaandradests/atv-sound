@@ -1,0 +1,100 @@
+/*================
+Formatação Geral/topo
+==================*/
+
+html {
+    color: black;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+  
+}
+header nav ul li{
+    list-style: none;
+}
+
+header nav ul{
+    display: flex;
+    justify-content: right ;
+}
+
+header nav ul li {
+    margin: 3px 5px  5px 1px;
+}
+header a {
+    color: black;
+    text-decoration: none;
+    font-family:Arial, Helvetica, sans-serif;
+}
+header nav img{
+    margin: 2vw 0 0 5vw;
+}
+
+/*================
+Section 01
+==================*/
+section .woman{
+    margin: 2vw 0 2vw 10vw;
+}
+.banner{
+    display: flex;
+}
+.possible{
+    font-size: 2rem;
+    margin: 2vw 5vw 2vw 10vw;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.banner  {
+    border-bottom: #ccc solid;
+}
+
+.browse h1 {
+    font-size: 3rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 2vw 0 0 5vw;
+}
+section .lorem{
+    font-size: 1.5rem;
+    margin: 2vw 0 2vw 5vw;
+    color: gray;
+}
+
+section.browse ol li{
+    color: lightslategray;
+    border-bottom: 2px #ccc solid ; /*Cria uma linha?*/
+}
+section.browse ol li h3{
+    color: black;
+}
+section.browse  {
+    display: flex;
+}
+section.browse div.study{
+    margin: 0 2vw 0 2vw;
+}
+.listas{
+    font-size: 2rem;
+    margin: 2vw 1vw 2vw 5vw;
+}
+
+
+/*================
+Formatação do rodapé
+==================*/
+footer {
+    text-align: center;
+    padding: 0 0 2vw 0;
+}
+footer nav ul{
+    display: flex;
+    justify-content: center;
+}
+footer nav ul li{
+    margin: 0 5px 5px 5px;
+    font-size: 2rem;
+    list-style: none;
+}
+footer nav ul li a span{
+    color: black;
+    padding: 10px;
+}
